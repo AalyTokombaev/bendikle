@@ -196,7 +196,7 @@ function App() {
                                         } else if (guess === "yellow") {
                                             shareGuess += ":yellow_square:"
                                         } else if (guess === "grey") {
-                                            shareGuess += ":black_square:"
+                                            shareGuess += ":black_large_square:"
                                         }
                                     });
                                     shareGuess += '\n'
