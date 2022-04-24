@@ -275,8 +275,7 @@ function App() {
                  }}
                  conentLabel="Share">
                      <Heading>You win!</Heading>
-                     <Heading>Result copied to clipboard!</Heading>
-                     <ShareButton></ShareButton>
+                     <ShareButton/>
             </Modal>
         </div>
         </>
@@ -286,33 +285,3 @@ function App() {
 
 
 export default App
-
-
-/*
-<div id="share">
-            <Modal 
-            isOpen={isModalVisible} 
-            onRequestClose={() => setModalVisible(false)}
-            style={{
-                content: {
-                    top: "50%",
-                    left: "50%",
-                    right: "auto",
-                    bottom: "auto",
-                    marginRight: "-50%",
-                    transform: "translate(-50%, 50%)",
-                },
-            }}
-            conentLabel="Share"
-            >
-                <ShareModal>
-                    <Heading>You Win!</Heading>
-                    <Row>
-                        <h3>Share your score!</h3>
-                        <ShareButton onClick={copyMarkers()} disabled={isShared}>{isShared ? "Copied": "Shared!"}</ShareButton>
-                    </Row>
-                </ShareModal>
-            </Modal>
-
-        </div>
-*/
