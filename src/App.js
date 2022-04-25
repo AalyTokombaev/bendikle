@@ -251,7 +251,7 @@ function App() {
                     <Flex item={0.5}/>
                 </KeyboardRow>
                 <KeyboardRow>
-                    {['enter', 'z', 'x', 'c', 'v', 'b', 'n', 'm', 'back'].map((e) => (
+                    {['enter', 'z', 'x', 'c', 'v', 'b', 'n', 'm', 'backspace'].map((e) => (
                         <KeyboardButton onClick={() => handleClick(e)} flex={['enter', 'backspace'].includes(e) ? 1.5 : 1}>
                             {e === 'back' ? <BackspaceIcon/> : e}
                         </KeyboardButton>
